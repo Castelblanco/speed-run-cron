@@ -1,0 +1,11 @@
+.boxForm {
+    position: relative;
+}
+
+.input_time {
+    width: 90px;
+}
+
+.input_time_milli {
+    width: 120px;
+}
