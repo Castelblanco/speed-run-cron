@@ -1,7 +1,7 @@
 {
     "$schema": "https://schema.tauri.app/config/2",
     "productName": "Speed Run Cron",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "identifier": "com.speed-run-cron.app",
     "build": {
         "beforeDevCommand": "bun run dev",
@@ -18,7 +18,7 @@
             }
         ],
         "security": {
-            "csp": "default-src 'self' asset:; img-src 'self' https: http: data:;"
+            "csp": "default-src 'self'; style-src 'self' 'unsafe-inline';"
         }
     },
     "bundle": {
