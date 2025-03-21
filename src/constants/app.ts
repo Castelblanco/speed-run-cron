@@ -1,3 +1,1 @@
-import { getVersion } from '@tauri-apps/api/app';
-
-export const APP_VERSION = await getVersion();
+export const APP_NAME = 'Speed Run Cron';
